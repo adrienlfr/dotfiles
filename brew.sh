@@ -27,6 +27,7 @@ brew cask install visual-studio
 # brew cask install menumeters
 brew cask install appcleaner
 brew cask install spectacle
+brew cask install postman
 
 # Remove outdated versions from the cellar.
 brew cleanup
