@@ -1,5 +1,8 @@
 export LANG=fr_FR.UTF-8
 
+#DOTNET
+export DOTNET=/usr/local/share/dotnet
+
 #REACTNATIVE
 export REACTNATIVE=/usr/local/bin
 
@@ -16,7 +19,7 @@ export MYSQL=/usr/local/mysql/bin/
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home
 
 #PATH
-export PATH=/usr/bin:/usr/sbin:/bin:/sbin:/usr/local/bin:$MYSQL:$JAVA_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$HOME:$NPM:$REACTNATIVE
+export PATH=/usr/bin:/usr/sbin:/bin:/sbin:/usr/local/bin:$MYSQL:$JAVA_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$HOME:$NPM:$REACTNATIVE:$DOTNET
 
 #DOTFILE
 
